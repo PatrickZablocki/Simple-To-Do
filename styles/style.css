@@ -21,6 +21,9 @@ h1 {
     text-shadow: var(--Big-Box-Shadow);
     font-size: var(--Size-3XL);
 }
+.Navbar_toggle {
+    display: none;
+}
 .Navbar_content {
     display: flex;
     justify-content: center;
@@ -62,5 +65,45 @@ h1 {
 #Sign_In:hover {
     background-color: #0056b3;
 }
+
+/* Setting for the Responsive Vison */
+.show-menu{
+    display: block;
+}
+#menuBtn{
+    display:none;
+}
+/* Media Queries für mobile Geräte */
+@media (max-width: 768px) {
+    .Navbar_container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .Navbar_content {
+        flex: auto;
+        margin-top: 10px;
+    }
+    .Navbar_content ul {
+        justify-content: center;
+    }
+
+    .Navbar_Sign_In {
+        flex: auto;
+        justify-content: center;
+        margin-top: 10px;
+    }
+
+    #Sign_In {
+        padding: 8px 16px;
+    }
+
+    #menuBtn{
+        display:block;
+        cursor: pointer;
+    }
+}
+
+
 
 /* Now we Go to The Styling Part from the Main Section*/
