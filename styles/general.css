@@ -1,0 +1,39 @@
+*{
+    top:0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Here Comes all the CSS-Variable */
+
+/* Starting with the Colors */
+
+:root{
+    --primary-color:#7B8CA6;
+    --secondary-color:#E0E1DD;
+    --text-color:#fff;
+    --Navbar-color:#222;
+    --headline-one-color:#222;
+    --headline-two-color:#43597d;
+    --full-background-color:#465975;
+
+    /* Then comes the Size */
+
+    --Size-XS:0.5rem;
+    --Size-S:0.75rem;
+    --Size-M:1rem;
+    --Size-L:1.25rem;
+    --Size-XL:1.5rem;
+    --Size-2XL:1.875rem;
+    --Size-3XL:2rem;
+    --Size-4XL:2.5rem;
+    --Size-5XL:3rem;
+
+    /* Now comes the Settings for the Shadow */
+
+    --Big-Box-Shadow:20px 20px 20px #222;
+    --Mittle-Box-Shadow:15px 15px 15px #222;
+    --Small-Box-Shadow:10px 10px 10px #222;
+}
+

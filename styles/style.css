@@ -1,0 +1,66 @@
+@import url('./general.css');
+
+body{
+    background-color: var(--full-background-color);
+    top:0;
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* We beginns Here with the Style Part from the Header*/
+.Navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 20px;
+}
+h1 {
+    margin: 0;
+    flex: 1;
+    color: var(--headline-one-color);
+    text-shadow: var(--Big-Box-Shadow);
+    font-size: var(--Size-3XL);
+}
+.Navbar_content {
+    display: flex;
+    justify-content: center;
+    flex: 2;
+}
+.Navbar_content ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.Navbar_content li {
+    margin: 0 10px;
+}
+.Navbar_content a {
+    text-decoration: none;
+    color: var(--Navbar-color);
+    font-size: var(--Size-L);
+}
+.Navbar_content a:hover{
+    color: #0056b3;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.Navbar_Sign_In {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+#Sign_In {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-size: var(--Size-M);
+}
+#Sign_In:hover {
+    background-color: #0056b3;
+}
+
+/* Now we Go to The Styling Part from the Main Section*/
