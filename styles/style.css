@@ -36,7 +36,7 @@ h1 {
     margin: 0;
 }
 .Navbar_content li {
-    margin: 0 10px;
+    margin: 0 20px;
 }
 .Navbar_content a {
     text-decoration: none;
@@ -44,7 +44,7 @@ h1 {
     font-size: var(--Size-L);
 }
 .Navbar_content a:hover{
-    color: #0056b3;
+    color:var(--text-color);
     text-decoration: underline;
     font-weight: bolder;
 }
