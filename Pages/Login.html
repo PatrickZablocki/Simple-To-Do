@@ -5,16 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../styles/general.css">
     <link rel="stylesheet" href="../styles/Login.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>LogIn</title>
 </head>
 <body>
-    <div class="Login_container">
-        <div class="Login_content">
-            <h2>Sign In</h2>
-            <input type="email" placeholder="Deine Mail Adresse">
-            <input type="password" placeholder="Dein password">
+    <div class="login-container">
+        <div class="login-box">
+            <div class="login-left">
+                <h2>Sign In</h2>
+                <input type="email" placeholder="Deine Mail Adresse">
+                <input type="password" placeholder="Dein Passwort">
+                <button class="login-button">Anmelden</button>
+                <hr>
+                <button class="google-button">
+                    <i class="fab fa-google"></i>
+                    Mit Google anmelden
+                </button>
+                <button class="apple-button">
+                    <i class="fab fa-apple"></i>
+                    Mit Apple anmelden
+                </button>
+                <p>Du besitzt noch keinen Account ?<br>
+                Dann <a href="./Register.html">Regestriere dich hier</a></p>
+            </div>
+            
+            <div class="login-right">
+                <img src="../Images/Login_Image.jpg" alt="Login Image">
+            </div>
         </div>
-
     </div>
 </body>
 </html>
